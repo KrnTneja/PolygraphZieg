@@ -4,12 +4,6 @@ import processing.core.PApplet;
 
 public class PolygraphZieg extends PApplet {
 
-    static Conductivity c1;
-    static Conductivity c2;
-    static Pulse p1;
-    static Respiration r1;
-    static Respiration r2;
-    static BloodPressure b1;
     static PolygraphZieg mainPCO;
     static PolygraphGUI session;
     static TwoWaySerialComm comm;
